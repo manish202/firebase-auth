@@ -1,0 +1,68 @@
+form{
+  width: 70%;
+  margin: 20px auto;
+  text-transform: capitalize;
+  font-family: cursive;
+}
+.input{
+  padding: 10px;
+  margin: 20px 10px;
+  outline: none;
+}
+input[type="submit"]{
+  padding: 10px;
+  letter-spacing: 1px;
+  font-size: 14px;
+  text-transform: capitalize;
+  outline: none;
+  border: none;
+  background: black;
+  color: white;
+  border-radius: 3px;
+  width: 100%;
+  cursor: pointer;
+}
+table{
+  border-collapse: collapse;
+  width: 70%;
+  margin: 20px auto;
+  text-align: center;
+}
+table,th,td{
+  border: 2px solid black;
+  padding: 10px;
+  text-transform: capitalize;
+}
+table button{
+  padding: 10px;
+  outline: none;
+  background-color: black;
+  color: white;
+  letter-spacing: 1px;
+  cursor: pointer;
+  border-radius: 3px;
+  margin: 0 10px;
+  text-transform: capitalize;
+}
+.error,.success{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  text-align: center;
+  color: #fff;
+  text-transform: capitalize;
+  padding: 10px;
+  letter-spacing: 1px;
+  font-size: 25px;
+  font-family: cursive;
+}
+.error{background-color: red;}
+.success{background-color: green;}
+a{
+  text-decoration: none;
+  text-transform: capitalize;
+  padding: 10px;
+  display: block;
+  font-size: 20px;
+}
